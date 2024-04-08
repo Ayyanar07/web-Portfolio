@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ====== HEADER DESIGN ======= -->
+    <header class="header">
+        <a href="" class="logo">PORTFOLIO</a>
+        
+        <i class="fa-solid fa-bars" onclick="showSidebar()" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#skill" class="active">Skills</a>
+            <a href="#portfolio" class="active">Project</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+    </header>
+    <!-- ====== HOME SECTION DESIGN ======= -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi Myself</h3>
+            <h1>Ayyanar</h1>
+            <h3>And i'm a <span class="multiple-text">Full Stack Developer</span></h3>
+            <p></p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/Ayyanar07"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ayyanar7/"><i class="fa-brands fa-linkedin"></i></a>  
+            </div>
+            <a href="Assets/Ayyanar Resume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Assets/profile img01.png" alt="Profile img">
+        </div>
+    </section>
+    
+    <!-- ====== ABOUT SECTION DESIGN ======= -->
+     
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Assets/profile img.jpeg" alt="" >
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Full stack Developer</h3>
+            <p>Hello! I'm Ayyanar, An enthusiastic Full Stack Web Developer with a strong set of technical as well
+                as non-technical skills and a dedication towards creating useful and interactive
+                web applications..</p>
+            <a href="#skill" class="btn">Read More</a>
+        </div>
+        
+    </section>
+
+    <!-- ====== SKILL SECTION DESIGN ======= -->
+    <section class="skill" id="skill">
+       <div class="skill-container">
+        <div class="skill-content">
+            <h2>My <span>Skills</span></h2>
+            <div class="skill-pad">
+                <div class="skill-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar html">
+                        <span class="skill-per">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">CSS</span>
+                    <div class="skill-bar css">
+                        <span class="skill-per">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">JavScript</span>
+                    <div class="skill-bar">
+                        <span class="skill-per javascript">
+                            <span class="tooltip">65%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">React</span>
+                    <div class="skill-bar">
+                        <span class="skill-per react">
+                            <span class="tooltip">60%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">Python</span>
+                    <div class="skill-bar">
+                        <span class="skill-per py">
+                            <span class="tooltip">60%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">Jquery</span>
+                    <div class="skill-bar">
+                        <span class="skill-per jquery">
+                            <span class="tooltip">35%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">MySQL</span>
+                    <div class="skill-bar">
+                        <span class="skill-per mysql">
+                            <span class="tooltip">50%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div> 
+        
+    </section>
+
+    <!-- ====== PORTFOLIO SECTION DESIGN ======= -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Assets/wonderla.jpg" alt="" height="245px">
+                <div class="portfolio-layer">
+                    <h4>Wonderla Theme Park</h4>
+                    <p>Create Wonderla Theme Park Model Website Using HTML, CSS, BOOTSTRAP, JavaScript</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Assets/e-commerce.jpg" alt="" height="245px">
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Web App</h4>
+                    <p>Create a E-Commerce Web App Using HTML, CSS, BOOTSTRAP, JavaScript</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Assets/netflix 02.jpeg" alt="" height="245px">
+                <div class="portfolio-layer">
+                    <h4>Netflix Clone Website</h4>
+                    <p>Create a Netflix clone Website Using HTML, CSS, BOOTSTRAP, JavaScript</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT SECTION DESIGN ======= -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- ====== FOOTER SECTION DESIGN ======= -->
+    <footer class="footer">
+        <div class="social-media">
+            <h2>Connect With Me</h2>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    
+    
+    <!-- ====== SCROLL REVEAL JS ======= -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ====== TYPED JS ======= -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ====== MAIN JS ======= -->
+    <script src="main.js">
+        function showSidebar(){
+            let sidebar = document.getElementById('#sidebar')
+            sidebar.style.display = 'flex'
+        };
+    </script>
+</body>
+</html>
